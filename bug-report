@@ -1,0 +1,22 @@
+Баг-репорт
+
+  ID: 1
+  Project: test
+  Title: Поле "username" не является обязательным, хотя должно быть обязательным
+  STR:
+    1. Зайти в приложение "App"
+    2. Нажать кнопку - "Регистрация"
+    3. Ввести все данные, кроме поля "username"
+    4. Нажать кнопку "Зарегистрироваться"
+  Actual result: Регистрация проходит без заполнения поля "username"
+  Expected result: При попытке зарегистрироваться без заполнения обязательного поля "username" должно появиться сообщение об ошибке и невозможности продолжения регистрации.
+  Status: open
+  Reporter: Denis Dyakonov
+  Severity: Minor
+  Priority: High
+  Environment: 
+     Устройство: iPhone 12
+     Операционная система: iOS 15.1
+     Версия приложения: 2.0.1
+  Attachment: bug.jpg
+  Assignee: Denis Dyakonov
